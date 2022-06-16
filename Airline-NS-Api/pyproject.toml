@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "airline-ns-api"
+version = "0.1.0"
+description = ""
+authors = ["Marianella <marianellabermudez16@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.78.0"
+uvicorn = {extras = ["standard"], version = "^0.17.6"}
+SQLAlchemy = "^1.4.37"
+alembic = "^1.8.0"
+psycopg2 = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
